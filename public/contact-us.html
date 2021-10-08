@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happi LC</title>
+  <link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="style/fa/css/all.css" />
+  <script src="js/jquery.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <nav>
+        <div><img class="logo" src="images/happi-lc.png" /></div>
+        <div><span class="fa fa-bars side-bar"></span></div>
+        <div class="nav-con">
+          <ul>
+            <span class="close">&times;</span>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="networks.html">Networks</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div> 
+  </header>
+  
+  
+  <main>
+
+      <div class="product-form">
+        <h2>Make your request now</h2>
+          <form method="post" action="/api/v1/products" enctype="multipart/form-data" >
+              <div class="product-input">
+                  <label for="productName">Full Name</label>
+                  <input placeholder="" type="text" name="productName" id="productName" value="" />
+              </div>
+              <div class="product-input">
+                <label for="productName">Email Address</label>
+                <input placeholder="" type="text" name="productName" id="productName" value="" />
+            </div>
+            <div class="product-input">
+                <label for="description">Description</label>
+                <textarea name="description" id="description"  ></textarea>
+            </div>
+      
+              <button type="submit">Send Request</button>
+          </form>
+      </div>
+      <div class="result">
+          
+      </div>
+  </main>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <footer>
+    <div class="f1">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="networks.html">Networks</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+    </div>
+    <div class="f2">
+      <ul>
+        <li><b>Check us out on</b></li>
+        <li><a href="#">Facebook <span class="fab fa-facebook"></span></a></li>
+        <li><a href="#">Instagram <span class="fab fa-instagram"></span></a></li>
+        <li><a href="#">Linked in <span class="fab fa-linkedin"></span></a></li>
+        <li><a href="#">Twitter <span class="fab fa-twitter"></span></a></li>
+      </ul>
+    </div>
+    <div class="f3">
+      <ul>
+        <li><b>Contact us now on</b></li>
+        <li><a href="#">Whatsapp <span class="fab fa-whatsapp"></span></a></li>
+        <li><a href="#">Telegram <span class="fab fa-telegram"></span></a></li>
+        <li><a href="#">G-mail <span class="fa fa-google"></span></a></li>
+        <li><a href="#">Email <span class="fa fa-envelope"></span></a></li>
+      </ul>
+    </div>
+    <div></div>
+    <div class="f4">Copyright &copy; 2021 All rights reserved</div>
+  </footer>
+  <script src="js/jquery-code.js"></script>
+</body>
+</html>
